@@ -5,6 +5,7 @@ export const mockDataTeam = [
     id: 1,
     name: "Jon Snow",
     email: "jonsnow@gmail.com",
+    new:"Hello",
     age: 35,
     phone: "(665)121-5454",
     access: "admin",
@@ -67,6 +68,14 @@ export const mockDataTeam = [
   },
   {
     id: 9,
+    name: "Harvey Roxie",
+    email: "harveyroxie@gmail.com",
+    age: 65,
+    phone: "(444)555-6239",
+    access: "admin",
+  },
+  {
+    id: 10,
     name: "Harvey Roxie",
     email: "harveyroxie@gmail.com",
     age: 65,
