@@ -80,7 +80,7 @@ const LineChart = ({isDashboard = false}) =>{
         }}
         axisLeft={{
             tickSize:5,
-            tickValues:isDashboard?undefined: 5,
+            tickValues:isDashboard?5:undefined,
             tickPadding: 5,
             tickRotation: 0,
             legend: isDashboard?undefined:'count',
@@ -89,6 +89,7 @@ const LineChart = ({isDashboard = false}) =>{
             truncateTickAt: 0
         }}
         enableGridX={false}
+        enableGridY={isDashboard?false:true}
         pointSize={10}
         pointColor={{ theme: 'background' }}
         pointBorderWidth={3}

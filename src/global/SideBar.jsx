@@ -36,7 +36,7 @@ const SideBar = () => {
     const[isCollapsed,setIsCollapsed] = useState(false);
     const [selected,setSelected] = useState("DashBoard");
     return (
-        <Box
+        <Box height="100%"
         sx={{
             "& .pro-sidebar-inner":{
                 background : `${colors.primary[400]} !important`
